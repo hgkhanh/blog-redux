@@ -21,6 +21,8 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    host: 'khanhnguyen.frosmo',
+    port: 3234
   }
 };
